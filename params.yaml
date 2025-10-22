@@ -1,0 +1,17 @@
+
+lstm:
+  hidden_size: 50
+  num_layers: 2
+  epochs: 5
+  batch_size: 16
+transformer:
+  d_model: 64
+  nhead: 4
+  num_layers: 2
+  epochs: 5
+arima:
+  p: 5
+  d: 1
+  q: 0
+prophet:
+  yearly_seasonality: true
